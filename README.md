@@ -29,7 +29,23 @@ lib
 └── screens
 ```
 
-### 4. Run app
+### 4. API key setup:
+
+- Copy your API key from [OpenWeather/"Api keys" tab](https://home.openweathermap.org/api_keys)
+
+- Go to `lib/datasources/network/apis/configurations/api_config.dart`, then replace with your key at line 9.
+
+	```dart
+	...
+	
+	static const _apiKey = '<your-api-key-here>';
+	
+	...
+	```
+
+
+
+### 5. Run app
 
 Find your device which you want to run the application on:
 
@@ -49,7 +65,7 @@ To run the application on the device:
 flutter run -d F36E23FA-5AC7-4783-9A6E-558C7222EA1B
 ```
 
-### 5. Unit Testing
+### 6. Unit Testing
 
 To run the unit test suits:
 

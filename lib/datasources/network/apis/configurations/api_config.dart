@@ -6,7 +6,7 @@ import 'package:flutter_pretty_dio_logger/flutter_pretty_dio_logger.dart';
 final class ApiConfig {
   static const _domain = 'https://api.openweathermap.org';
 
-  static const _apiKey = 'ad535c3cbcb8ee3d01928d3a38baccab';
+  static const _apiKey = '<your-api-key-here>';
 
   /// The instance of API client
   static Dio client = Dio(
